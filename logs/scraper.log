@@ -1,0 +1,377 @@
+2026-05-08 11:26:09,276 | INFO | scraper | Scraper started
+2026-05-08 11:26:10,839 | INFO | scraper | Browser started
+2026-05-08 11:26:10,854 | INFO | scraper | Created new browser context with UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+2026-05-08 11:26:10,951 | INFO | scraper | Scraping pagination page 1
+2026-05-08 11:26:10,952 | INFO | scraper | Opening page: https://www.avito.ru/sochi/kvartiry/2-k._apartamenty_49_m_35_et._7988825969?context=H4sIAAAAAAAA_wE_AMD_YToyOntzOjEzOiJsb2NhbFByaW9yaXR5IjtiOjA7czoxOiJ4IjtzOjE2OiJRdEo0MFkzeDgyZjVtR0JaIjt9QjKP6z8AAAA
+2026-05-08 11:26:12,827 | INFO | scraper | Parsed 0 items from https://www.avito.ru/sochi/kvartiry/2-k._apartamenty_49_m_35_et._7988825969?context=H4sIAAAAAAAA_wE_AMD_YToyOntzOjEzOiJsb2NhbFByaW9yaXR5IjtiOjA7czoxOiJ4IjtzOjE2OiJRdEo0MFkzeDgyZjVtR0JaIjt9QjKP6z8AAAA
+2026-05-08 11:26:12,828 | INFO | scraper | No next page found. Stopping pagination.
+2026-05-08 11:26:12,875 | INFO | scraper | Browser closed
+2026-05-08 11:26:12,888 | INFO | scraper | Playwright stopped
+2026-05-08 11:26:12,888 | ERROR | scraper | Scraper failed: 'AsyncScraper' object has no attribute 'resultss'
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\async-scraper\main.py", line 15, in main
+    results = await scraper.run()
+              ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\scraper.py", line 59, in run
+    return self.resultss
+           ^^^^^^^^^^^^^
+AttributeError: 'AsyncScraper' object has no attribute 'resultss'. Did you mean: 'results'?
+2026-05-08 11:34:31,710 | INFO | scraper | Scraper started
+2026-05-08 11:34:33,041 | INFO | scraper | Browser started
+2026-05-08 11:34:33,053 | INFO | scraper | Created new browser context with UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+2026-05-08 11:34:33,128 | INFO | scraper | Scraping pagination page 1
+2026-05-08 11:34:33,129 | INFO | scraper | Opening page: https://www.avito.ru/sochi/kvartiry/2-k._apartamenty_49_m_35_et._7988825969?context=H4sIAAAAAAAA_wE_AMD_YToyOntzOjEzOiJsb2NhbFByaW9yaXR5IjtiOjA7czoxOiJ4IjtzOjE2OiJRdEo0MFkzeDgyZjVtR0JaIjt9QjKP6z8AAAA
+2026-05-08 11:34:34,888 | INFO | scraper | Parsed 0 items from https://www.avito.ru/sochi/kvartiry/2-k._apartamenty_49_m_35_et._7988825969?context=H4sIAAAAAAAA_wE_AMD_YToyOntzOjEzOiJsb2NhbFByaW9yaXR5IjtiOjA7czoxOiJ4IjtzOjE2OiJRdEo0MFkzeDgyZjVtR0JaIjt9QjKP6z8AAAA
+2026-05-08 11:34:34,889 | INFO | scraper | No next page found. Stopping pagination.
+2026-05-08 11:34:34,935 | INFO | scraper | Browser closed
+2026-05-08 11:34:34,947 | INFO | scraper | Playwright stopped
+2026-05-08 11:34:34,948 | INFO | scraper | Exported JSON: C:\Users\Admin\Desktop\async-scraper\exports\results.json
+2026-05-08 11:34:34,948 | WARNING | scraper | No items to export to CSV
+2026-05-08 11:34:34,948 | INFO | scraper | Scraping completed successfully. Total items: 0
+2026-05-08 11:35:50,539 | INFO | scraper | Scraper started
+2026-05-08 11:35:51,770 | INFO | scraper | Browser started
+2026-05-08 11:35:51,780 | INFO | scraper | Created new browser context with UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+2026-05-08 11:35:51,844 | INFO | scraper | Scraping pagination page 1
+2026-05-08 11:35:51,844 | INFO | scraper | Opening page: https://www.avito.ru/sochi/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6Ik5LQ1FnUXBqWTZHYjJsdnMiO33eOyeGJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9
+2026-05-08 11:35:53,542 | INFO | scraper | Parsed 0 items from https://www.avito.ru/sochi/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6Ik5LQ1FnUXBqWTZHYjJsdnMiO33eOyeGJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9
+2026-05-08 11:35:53,543 | INFO | scraper | No next page found. Stopping pagination.
+2026-05-08 11:35:53,589 | INFO | scraper | Browser closed
+2026-05-08 11:35:53,601 | INFO | scraper | Playwright stopped
+2026-05-08 11:35:53,602 | INFO | scraper | Exported JSON: C:\Users\Admin\Desktop\async-scraper\exports\results.json
+2026-05-08 11:35:53,602 | WARNING | scraper | No items to export to CSV
+2026-05-08 11:35:53,602 | INFO | scraper | Scraping completed successfully. Total items: 0
+2026-05-08 11:39:44,934 | INFO | scraper | Scraper started
+2026-05-08 11:39:46,220 | INFO | scraper | Browser started
+2026-05-08 11:39:46,232 | INFO | scraper | Created new browser context with UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0
+2026-05-08 11:39:46,298 | INFO | scraper | Scraping pagination page 1
+2026-05-08 11:39:46,298 | INFO | scraper | Opening page: https://hh.ru/search/vacancy?text=python+developer&area=1
+2026-05-08 11:39:49,948 | INFO | scraper | Parsed 0 items from https://hh.ru/search/vacancy?text=python+developer&area=1
+2026-05-08 11:39:49,948 | INFO | scraper | No next page found. Stopping pagination.
+2026-05-08 11:39:50,001 | INFO | scraper | Browser closed
+2026-05-08 11:39:50,015 | INFO | scraper | Playwright stopped
+2026-05-08 11:39:50,016 | INFO | scraper | Exported JSON: C:\Users\Admin\Desktop\async-scraper\exports\results.json
+2026-05-08 11:39:50,016 | WARNING | scraper | No items to export to CSV
+2026-05-08 11:39:50,016 | INFO | scraper | Scraping completed successfully. Total items: 0
+2026-05-08 11:49:12,442 | INFO | scraper | Scraper started
+2026-05-08 11:49:13,712 | INFO | scraper | Browser started
+2026-05-08 11:49:13,724 | INFO | scraper | Created new browser context with UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+2026-05-08 11:49:13,791 | INFO | scraper | Scraping pagination page 1
+2026-05-08 11:49:13,792 | INFO | scraper | Opening page: https://hh.ru/search/vacancy?text=python+developer&area=1
+2026-05-08 11:49:27,535 | INFO | scraper | Opening page: https://hh.ru/search/vacancy?text=python+developer&area=1
+2026-05-08 11:49:42,707 | INFO | scraper | Opening page: https://hh.ru/search/vacancy?text=python+developer&area=1
+2026-05-08 11:49:53,684 | INFO | scraper | Browser closed
+2026-05-08 11:49:53,697 | INFO | scraper | Playwright stopped
+2026-05-08 11:49:53,697 | ERROR | scraper | Scraper failed: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("div.vacancy-serp-item") to be visible
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\async-scraper\main.py", line 15, in main
+    results = await scraper.run()
+              ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\scraper.py", line 43, in run
+    items, next_page = await self.scrape_page(page, current_url)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\scraper.py", line 23, in scrape_page
+    html = await self.fetch_page_content(page, url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\utils.py", line 24, in wrapper
+    raise last_exception
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\utils.py", line 18, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\scraper.py", line 19, in fetch_page_content
+    await page.wait_for_selector("div.vacancy-serp-item", timeout=10000)
+  File "C:\Users\Admin\Desktop\async-scraper\config\venv\Lib\site-packages\playwright\async_api\_generated.py", line 8554, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Admin\Desktop\async-scraper\config\venv\Lib\site-packages\playwright\_impl\_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\async-scraper\config\venv\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "C:\Users\Admin\Desktop\async-scraper\config\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\async-scraper\config\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("div.vacancy-serp-item") to be visible
+
+2026-05-08 11:56:16,046 | INFO | scraper | Scraper started
+2026-05-08 11:56:17,310 | INFO | scraper | Browser started
+2026-05-08 11:56:17,326 | INFO | scraper | Created new browser context with UA: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+2026-05-08 11:56:17,391 | INFO | scraper | Scraping pagination page 1
+2026-05-08 11:56:17,391 | INFO | scraper | Opening page: https://hh.ru/search/vacancy?text=python+developer&area=1
+2026-05-08 11:56:29,789 | INFO | scraper | Parsed 0 items from https://hh.ru/search/vacancy?text=python+developer&area=1
+2026-05-08 11:56:29,790 | INFO | scraper | No next page found. Stopping pagination.
+2026-05-08 11:56:29,847 | INFO | scraper | Browser closed
+2026-05-08 11:56:29,861 | INFO | scraper | Playwright stopped
+2026-05-08 11:56:29,862 | INFO | scraper | Exported JSON: C:\Users\Admin\Desktop\async-scraper\exports\results.json
+2026-05-08 11:56:29,863 | WARNING | scraper | No items to export to CSV
+2026-05-08 11:56:29,863 | INFO | scraper | Scraping completed successfully. Total items: 0
+2026-05-08 12:03:31,806 | INFO | scraper | Scraper started
+2026-05-08 12:03:33,079 | INFO | scraper | Browser started
+2026-05-08 12:03:33,096 | INFO | scraper | Created new browser context with UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+2026-05-08 12:03:33,163 | INFO | scraper | Scraping pagination page 1
+2026-05-08 12:03:33,163 | INFO | scraper | Opening page: https://hh.ru/search/vacancy?text=python+developer&area=1
+2026-05-08 12:03:45,009 | INFO | scraper | <!DOCTYPE html><html class="desktop js-focus-visible" lang="ru" data-js-focus-visible=""><!--request: 17782310130196a3aab879ad92f43005--><head><script src="https://mc.yandex.ru/metrika/tag_phono.js" type="text/javascript" charset="utf-8" async=""></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="twitter:card" content="summary_large_image"><meta property="og:image" content="https://i.hh.ru/images/logos/openGraph/hh.ru.png?v=05022025"><meta property="og:image:width" content="600"><meta property="og:image:height" content="315"><meta name="sentry-trace" content="c3886015d3854a14b8f3df6f119a8df9-82186797a556fb79-0"><meta name="baggage" content="sentry-trace_id=c3886015d3854a14b8f3df6f119a8df9,sentry-sample_rand=0.081730,sentry-environment=production,sentry-release=xhh%4026.19.4.4,sentry-public_key=0cc3a09b6698423b8ca47d3478cfccac,sentry-transaction=/search/vacancy,sentry-sample_rate=0.001,sentry-sampled=false"><script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script type="text/javascript" async="" id="tmr-code" src="https://top-fwz1.mail.ru/js/code.js"></script><script type="text/javascript" async="" src="https://cpa.hh.ru/api/tracker/sdk.js"></script><script id="js-script-global-vars" nonce="">
+
+            window.bloko = {
+                fontUrl: 'https://i.hh.ru/styles/other/pages/__fonts_3e2a20dec491e4294c7ec1c4f92c6567.css'
+            };
+            window.magritte = {
+                fontUrl: 'https://i.hh.ru/styles/other/pages/__magritte-fonts_5baeb822891e756b91f85c6828a48bac.css'
+            };
+            window.globalVars = {
+                apiXhhHost: "https://hh.ru",
+                sharedRemoteEntry: "https://i.hh.ru/shared/remote.xhhshared.eb42d018a7f67810.js",
+                buildFolder: "build",
+                luxEnabled: true,
+                locale: "ru_RU",
+                country: "1",
+                area: "1641",
+                build: 
+2026-05-08 12:03:45,684 | INFO | scraper | Parsed 0 items from https://hh.ru/search/vacancy?text=python+developer&area=1
+2026-05-08 12:03:45,684 | INFO | scraper | No next page found. Stopping pagination.
+2026-05-08 12:03:45,737 | INFO | scraper | Browser closed
+2026-05-08 12:03:45,749 | INFO | scraper | Playwright stopped
+2026-05-08 12:03:45,750 | INFO | scraper | Exported JSON: C:\Users\Admin\Desktop\async-scraper\exports\results.json
+2026-05-08 12:03:45,751 | WARNING | scraper | No items to export to CSV
+2026-05-08 12:03:45,751 | INFO | scraper | Scraping completed successfully. Total items: 0
+2026-05-08 12:07:37,628 | INFO | scraper | Scraper started
+2026-05-08 12:07:38,882 | INFO | scraper | Browser started
+2026-05-08 12:07:38,897 | INFO | scraper | Created new browser context with UA: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+2026-05-08 12:07:38,963 | INFO | scraper | Scraping pagination page 1
+2026-05-08 12:07:38,964 | INFO | scraper | Opening page: https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0
+2026-05-08 12:07:46,041 | INFO | scraper | <!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доступ ограничен: проблема с IP</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #fff;
+            color: #000;
+            font: 13px/1.5 Arial, 'Helvetica Neue', Helvetica, sans-serif;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+        }
+
+        .firewall-container {
+            margin: 30px auto;
+            width: 500px;
+            position: relative;
+        }
+
+        .firewall-icon {
+            position: absolute;
+            left: -87px;
+            top: 0;
+        }
+
+        .firewall-title {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+
+        .form {
+            font-size: 14px;
+            display: block;
+            margin-top: 0em;
+        }
+
+        .firewall-container .firewall-p-bold {
+            font-weight: 700;
+        }
+
+        /**
+    * Интерфейс каптчи
+    */
+        .form-captcha {
+            position: relative;
+        }
+
+        .form-captcha-input {
+            width: grid(2);
+        }
+
+        .form-captcha-big .form-captcha-input {
+            margin-bottom: 4px !important;
+        }
+
+        .form-captcha-image,
+        .form-captcha-refresh {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .form-captcha-image {
+            width: 94px;
+            height: 30px;
+            margin-left: 22px;
+        }
+
+        .form-captcha-big .form-captcha-image {
+            height: 52px;
+            margin-left: 8px;
+            position: absolute;
+            width: 156px;
+        }
+
+        .form-captcha-refresh {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid #d6d6d6;
+            box-sizi
+2026-05-08 12:07:46,049 | INFO | scraper | Parsed 0 items from https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0
+2026-05-08 12:07:46,050 | INFO | scraper | No next page found. Stopping pagination.
+2026-05-08 12:07:46,093 | INFO | scraper | Browser closed
+2026-05-08 12:07:46,105 | INFO | scraper | Playwright stopped
+2026-05-08 12:07:46,106 | INFO | scraper | Exported JSON: C:\Users\Admin\Desktop\async-scraper\exports\results.json
+2026-05-08 12:07:46,106 | WARNING | scraper | No items to export to CSV
+2026-05-08 12:07:46,106 | INFO | scraper | Scraping completed successfully. Total items: 0
+2026-05-08 12:11:18,095 | INFO | scraper | Scraper started
+2026-05-08 12:11:19,370 | INFO | scraper | Browser started
+2026-05-08 12:11:19,387 | INFO | scraper | Created new browser context with UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+2026-05-08 12:11:19,460 | INFO | scraper | Scraping pagination page 1
+2026-05-08 12:11:19,461 | INFO | scraper | Opening page: https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0
+2026-05-08 12:11:23,527 | INFO | scraper | Opening page: https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0
+2026-05-08 12:11:29,581 | INFO | scraper | Opening page: https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0
+2026-05-08 12:11:31,667 | INFO | scraper | Browser closed
+2026-05-08 12:11:31,678 | INFO | scraper | Playwright stopped
+2026-05-08 12:11:31,679 | ERROR | scraper | Scraper failed: Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0
+Call log:
+  - navigating to "https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0", waiting until "domcontentloaded"
+Traceback (most recent call last):
+  File "c:\Users\Admin\Desktop\async-scraper\main.py", line 15, in main
+    results = await scraper.run()
+              ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\scraper.py", line 45, in run
+    items, next_page = await self.scrape_page(page, current_url)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\scraper.py", line 24, in scrape_page
+    html = await self.fetch_page_content(page, url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\utils.py", line 24, in wrapper
+    raise last_exception
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\utils.py", line 18, in wrapper
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admin\Desktop\async-scraper\scraper\scraper.py", line 18, in fetch_page_content
+    await page.goto(url, timeout=TIMEOUT, wait_until="domcontentloaded")
+  File "C:\Users\Admin\Desktop\async-scraper\config\venv\Lib\site-packages\playwright\async_api\_generated.py", line 9365, in goto
+    await self._impl_obj.goto(
+  File "C:\Users\Admin\Desktop\async-scraper\config\venv\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\async-scraper\config\venv\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+  File "C:\Users\Admin\Desktop\async-scraper\config\venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\async-scraper\config\venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0
+Call log:
+  - navigating to "https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0", waiting until "domcontentloaded"
+
+2026-05-08 12:13:21,873 | INFO | scraper | Scraper started
+2026-05-08 12:13:23,098 | INFO | scraper | Browser started
+2026-05-08 12:13:23,111 | INFO | scraper | Created new browser context with UA: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+2026-05-08 12:13:23,176 | INFO | scraper | Scraping pagination page 1
+2026-05-08 12:13:23,176 | INFO | scraper | Opening page: https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0
+2026-05-08 12:13:30,205 | INFO | scraper | <!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доступ ограничен: проблема с IP</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #fff;
+            color: #000;
+            font: 13px/1.5 Arial, 'Helvetica Neue', Helvetica, sans-serif;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+        }
+
+        .firewall-container {
+            margin: 30px auto;
+            width: 500px;
+            position: relative;
+        }
+
+        .firewall-icon {
+            position: absolute;
+            left: -87px;
+            top: 0;
+        }
+
+        .firewall-title {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+
+        .form {
+            font-size: 14px;
+            display: block;
+            margin-top: 0em;
+        }
+
+        .firewall-container .firewall-p-bold {
+            font-weight: 700;
+        }
+
+        /**
+    * Интерфейс каптчи
+    */
+        .form-captcha {
+            position: relative;
+        }
+
+        .form-captcha-input {
+            width: grid(2);
+        }
+
+        .form-captcha-big .form-captcha-input {
+            margin-bottom: 4px !important;
+        }
+
+        .form-captcha-image,
+        .form-captcha-refresh {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .form-captcha-image {
+            width: 94px;
+            height: 30px;
+            margin-left: 22px;
+        }
+
+        .form-captcha-big .form-captcha-image {
+            height: 52px;
+            margin-left: 8px;
+            position: absolute;
+            width: 156px;
+        }
+
+        .form-captcha-refresh {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid #d6d6d6;
+            box-sizi
+2026-05-08 12:13:30,213 | INFO | scraper | Parsed 0 items from https://www.avito.ru/sankt-peterburg/kvartiry/prodam/do-6-mln-rubley-ASgBAgECAUSSA8YQAUXGmgwXeyJmcm9tIjowLCJ0byI6NjAwMDAwMH0?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6InkiO3M6MTY6IlF0SjQwWTN4ODJmNW1HQloiO33qbt7UJgAAAA&f=ASgBAgECAkSSA8YQygiCWQFFxpoMF3siZnJvbSI6MCwidG8iOjYwMDAwMDB9&localPriority=0
+2026-05-08 12:13:30,213 | INFO | scraper | No next page found. Stopping pagination.
+2026-05-08 12:13:30,270 | INFO | scraper | Browser closed
+2026-05-08 12:13:30,285 | INFO | scraper | Playwright stopped
+2026-05-08 12:13:30,287 | INFO | scraper | Exported JSON: C:\Users\Admin\Desktop\async-scraper\exports\results.json
+2026-05-08 12:13:30,287 | WARNING | scraper | No items to export to CSV
+2026-05-08 12:13:30,287 | INFO | scraper | Scraping completed successfully. Total items: 0
